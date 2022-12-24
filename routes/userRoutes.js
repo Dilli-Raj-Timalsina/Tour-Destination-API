@@ -2,7 +2,7 @@ const express = require('express');
 const userController = require('./../controllers/userController');
 
 const router = express.Router();
-
+//default url
 router
   .route('/')
   .get(userController.getAllUsers)

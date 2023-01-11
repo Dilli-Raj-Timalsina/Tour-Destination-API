@@ -14,15 +14,10 @@ const DB = process.env.DATABASE.replace(
   '<PASSWORD>',
   process.env.DATABASE_PASSWORD
 );
-
-mongoose
-  .connect(DB, {
-    useNewUrlParser: true,
-    useCreateIndex: true,
-    useFindAndModify: false
-  })
-  .then(() => console.log('DB connection successful!'));
-
+mongoose.connect(DB, err => {
+  if (err) throw err;
+  console.log('connected to MongoDB');
+});
   //default port can be 8000 also
 const port = process.env.PORT || 3000;
 const server = app.listen(port, () => {

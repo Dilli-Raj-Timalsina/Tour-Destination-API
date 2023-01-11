@@ -8,7 +8,7 @@
     "start:prod": "NODE_ENV=production nodemon server.js",
     "debug": "ndb server.js"
   },
-  "author": "Jonas Schmedtmann",
+  "author": "Dilli Raj Timalsina",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^7.0.0",

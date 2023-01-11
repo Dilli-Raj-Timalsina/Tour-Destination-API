@@ -18,13 +18,12 @@ mongoose.connect(DB, err => {
   if (err) throw err;
   console.log('connected to MongoDB');
 });
-  //default port can be 8000 also
+
 const port = process.env.PORT || 3000;
 const server = app.listen(port, () => {
   console.log(`App running on port ${port}...`);
 });
 
-//you can look up at console for basic checking:
 process.on('unhandledRejection', err => {
   console.log('UNHANDLED REJECTION! 💥 Shutting down...');
   console.log(err.name, err.message);

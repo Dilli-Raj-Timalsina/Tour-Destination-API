@@ -1,7 +1,7 @@
 
 # Tour Destinations
 
-This full stack web application is specially designed for persons who love travelling and going on tour vacations.
+This full stack web application is specially designed for persons who love travelling and going on tour vacations.This API is based on MVC Architecture which follows REST philosophy and performs CRUD operations.
 
 This app can be found at https://tour-destinations-dilli.onrender.com/ . The documentation of the API for this app can be found at https://documenter.getpostman.com/view/23609125/2s8ZDR8mGA .
 ## API Reference

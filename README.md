@@ -78,6 +78,8 @@ If you wish to play around with the code base in your local environment, do the 
 * Your app should be running just fine.
 ```
 
+![ss1](https://user-images.githubusercontent.com/92309333/212540455-0bbcbf27-9e59-4978-979a-971764182465.png)
+
 
 ## Contributing :
 

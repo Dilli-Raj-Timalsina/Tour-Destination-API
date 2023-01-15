@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!--For Font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alike+Angular&family=Dancing+Script&family=Libre+Baskerville:wght@700&family=Noto+Serif+Armenian&display=swap" rel="stylesheet">
+
+
+  <!-- Linking Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+
+  <meta content='maximum-scale=1.0, initial-scale=1.0, width=device-width' name='viewport'>
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour-Destinations</title>
+</head>
+
+
+
+<body style="width:100%">
+
+
+    <!--NAVBAR-->
+
+    <nav class="navbar navbar-expand-lg px-1 navbar-light navbar-default fixed-top"  role="navigation" style="background-color:rgb(44, 111, 159)">
+    <div class="container-fluid ">
+    <div style="max-width: 55px; margin-right:0px; display: flex;">
+    <a class="navbar-brand collapse navbar-collapse" href="#">
+      <img src="images/logo.jpg" class='img-fluid' style="height: 40px;;" alt="Logo"
+      loading="lazy" />
+    </a>
+  </div>
+    <a class="navbar-brand" style="font-size:30px; font-family: 'Libre Baskerville', serif; padding-left:3px;;" href="#">Tour-Destinations</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" style="background-color:rgba(113, 157, 208, 0.888)"placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline" style="background-color:rgba(89, 143, 224, 0.628)" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+  
+  <!-- Our Services -->
+  <section class="Our Services pt-2 pb-5 mt-5 text-center" id="services" style="background-color:rgba(137, 188, 219, 0.687)">
+    <div class="text-center mt-5" data-aos="zoom-in-right" data-aos-offset="200">
+      <h1 style="font-size:50px; font-family: 'Dancing Script', cursive; color:rgba(24, 92, 156, 0.817);" >Our Services</h1>
+      <hr style="color:rgba(24, 92, 156, 0.817);"class="w-25 m-auto">
+    </div>
+    <div class="row">
+      <div class="col-12 col-lg-4 col-md-4 col-sm-12">
+        <div class="card mt-2 mt-lg-5 mx-auto" style="width: 25rem; height :39rem;">
+          <div class="card-body " style="background-color:rgba(24, 92, 156, 0.817);">
+            <h5 class="card-title mt-2 mb-2"  style="color:aliceblue; font-family:'Alike Angular', serif; font-size: 25px; text-decoration:underline;"><b>THE SEA EXPLORER</b></h5>
+            <img src="images/seaExplorer2.jpg" class="img-fluid img-thumbnail border border-info m-3 " style="height:200px; width:300px;">
+            <h6 class="card-subtitle mb-2  my-3">MEDIUM-DIFFICULT TOUR</h6>
+            <p class="card-text text-white " style="text-align:justify; margin-left: 25px; margin-right: 25px; margin-bottom: 22px;">Smell the sea and feel the sky. Explore the jaw-dropping US east coast.</p>
+
+            <table class="table m-300px;">
+              <tbody>
+                <tr>
+                  <th scope="row"></th>
+                  <td style="text-align: left;">7 Days</td>
+                  <td style="text-align: left;">Oregon, US</td>
+                  <td style="text-align: left;">June 2021</td>
+                </tr>
+                <tr>
+                  <th scope="row"></th>
+                  <td style="text-align: left;">4.8 Rating</td>
+                  <td style="text-align: left;">4 stops</td>
+                  <td style="text-align: left;">15 people</td>
+                </tr>
+              </tbody>
+            </table>
+            
+            <!--DROPDOWN-->
+            <div style="background-color:rgba(19, 70, 97, 0.5); margin:5px;">
+            <div class="dropdown mt-50" >
+              <button class="btn btn-lg dropdown-toggle m-3" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                $497 Per Person
+                    </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" style="background-color:rgba(33, 131, 201, 0.251)" href="#">More Details</a></li>
+              </ul>
+            </div>
+          </div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4 col-md-4 col-sm-12 " data-aos="zoom-in" data-aos-offset="200">
+        <div class="card mt-2 mt-lg-5 mx-auto" style="width: 25rem;height :39rem;">
+          <div class="card-body " style="background-color:rgb(111, 144, 175);">
+            <h5 class="card-title mt-2 mb-2"  style="color:aliceblue; font-family:'Alike Angular', serif; font-size: 25px;text-decoration:underline;"><b>THE SPORTS LOVER</b></h5>
+            <img src="images/sports.jpg" class="img-fluid img-thumbnail border border-info m-3" style="height:200px; width:300px;">
+            <h6 class="card-subtitle mb-2  my-3">DIFFICULT TOUR</h6>
+            <p class="card-text text-white " style="text-align:justify; margin-left: 25px; margin-right: 25px; margin-bottom: 30px;">Surfing, skating, parajumping, rock climbing and more, all in one tour.</p>
+
+            <table class="table m-300px;">
+              <tbody>
+                <tr>
+                  <th scope="row"></th>
+                  <td style="text-align: left;">14 Days</td>
+                  <td style="text-align: left;">California, USA</td>
+                  <td style="text-align: left;">July 2021</td>
+                </tr>
+                <tr>
+                  <th scope="row"></th>
+                  <td style="text-align: left;">4.7 Rating</td>
+                  <td style="text-align: left;">5 stops</td>
+                  <td style="text-align: left;">8 people</td>
+                </tr>
+              </tbody>
+            </table>
+            
+            <!--DROPDOWN-->
+            <div style="background-color:rgba(19, 70, 97, 0.5); margin:5px;">
+            <div class="dropdown mt-50" >
+              <button class="btn btn-lg dropdown-toggle m-3" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                $41,997 Per Person
+                    </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" style="background-color:rgba(33, 131, 201, 0.251)" href="#">More Details</a></li>
+              </ul>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      <div class="col-12 col-lg-4 col-md-4 col-sm-12" data-aos="zoom-in-left" data-aos-offset="200">
+        <div class="card mt-2 mt-lg-5 mx-auto" style="width: 25rem; height :39rem;">
+          <div class="card-body" style="background-color:rgba(24, 92, 156, 0.817);">
+            <h5 class="card-title mt-2 mb-2"  style="color:aliceblue; font-family:'Alike Angular', serif; font-size: 25px;text-decoration:underline;"><b>THE SNOW ADVENTURER</b></h5>
+            <img src="images/snow2.jpg" class="img-fluid img-thumbnail border border-info m-3 " style="height:200px; width:300px;">
+            <h6 class="card-subtitle mb-2  my-3">DIFFICULT TOUR</h6>
+            <p class="card-text text-white " style="text-align:justify; margin-left: 25px; margin-right: 25px; margin-bottom: 30px;">Experrience exciting adventure in the snow with snowboarding and skiing.</p>
+
+            <table class="table m-300px;">
+              <tbody>
+                <tr>
+                  <th scope="row"></th>
+                  <td style="text-align: left;">3 Days</td>
+                  <td style="text-align: left;">Aspen, USA</td>
+                  <td style="text-align: left;">January 2022</td>
+                </tr>
+                <tr>
+                  <th scope="row"></th>
+                  <td style="text-align: left;">4.9 Rating</td>
+                  <td style="text-align: left;">2 stops</td>
+                  <td style="text-align: left;">10 people</td>
+                </tr>
+              </tbody>
+            </table>
+            
+            <!--DROPDOWN-->
+            <div style="background-color:rgba(19, 70, 97, 0.5); margin:5px;">
+            <div class="dropdown mt-50" >
+              <button class="btn btn-lg dropdown-toggle m-3" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                $697 Per Person
+                    </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" style="background-color:rgba(33, 131, 201, 0.251)" href="#">More Details</a></li>
+              </ul>
+            </div>
+          </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row ">
+      
+      <div class="col-12 col-lg-4 col-md-4 col-sm-12" data-aos="zoom-in-right" data-aos-offset="200">
+        <div class="card mt-2 mt-lg-5 mx-auto" style="width: 25rem;height :39rem;">
+          <div class="card-body" style="background-color:rgb(111, 144, 175);">
+            <h5 class="card-title mt-2 mb-2"  style="color:aliceblue; font-family:'Alike Angular', serif; font-size: 25px;text-decoration:underline;"><b>THE PARK CAMPER</b></h5>
+            <img src="images/nationalPark.jpg" class="img-fluid img-thumbnail border border-info m-3 " style="height:200px; width:300px;">
+            <h6 class="card-subtitle mb-2  my-3">MEDIUM-DIFFICULT TOUR</h6>
+            <p class="card-text text-white " style="text-align:justify; margin-left: 25px; margin-right: 25px; margin-bottom: 30px;">Inhale the sweetness of Nature in America's most spectacular National Parks.</p>
+
+
+            <table class="table m-300px;">
+              <tbody>
+                <tr>
+                  <th scope="row"></th>
+                  <td style="text-align: left;">10 Days</td>
+                  <td style="text-align: left;">Las Vegas, USA                  </td>
+                  <td style="text-align: left;">August 2021</td>
+                </tr>
+                <tr>
+                  <th scope="row"></th>
+                  <td style="text-align: left;">4.9 Rating</td>
+                  <td style="text-align: left;">4 stops</td>
+                  <td style="text-align: left;">15 people</td>
+                </tr>
+              </tbody>
+            </table>
+            
+            <!--DROPDOWN-->
+            <div style="background-color:rgba(19, 70, 97, 0.5); margin:5px;">
+            <div class="dropdown mt-50" >
+              <button class="btn btn-lg dropdown-toggle m-3" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                $1,497 Per Person
+                    </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" style="background-color:rgba(33, 131, 201, 0.251)" href="#">More Details</a></li>
+              </ul>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4 col-md-4 col-sm-12" data-aos="zoom-in" data-aos-offset="200">
+        <div class="card mt-2 mt-lg-5 mx-auto" style="width: 25rem;height :39rem;">
+          <div class="card-body " style="background-color:rgba(24, 92, 156, 0.817);">
+            <h5 class="card-title mt-2 mb-2"  style="color:aliceblue; font-family:'Alike Angular', serif; font-size: 25px;text-decoration:underline;"><b>THE CITY WANDERER</b></h5>
+            <img src="images/city2.jpg" class="img-fluid img-thumbnail border border-info m-3 " style="height:200px; width:300px;">
+            <h6 class="card-subtitle mb-2  my-3">EASY TOUR</h6>
+            <p class="card-text text-white " style="text-align:justify; margin-left: 25px; margin-right: 25px; margin-bottom: 30px;">Live the life of Wanderlust in the US' most beautiful cities.</p>
+
+            <table class="table m-300px;">
+              <tbody>
+                <tr>
+                  <th scope="row"></th>
+                  <td style="text-align: left;">7 Days</td>
+                  <td style="text-align: left;">NYC, USA</td>
+                  <td style="text-align: left;">March 2021</td>
+                </tr>
+                <tr>
+                  <th scope="row"></th>
+                  <td style="text-align: left;">4.8 Rating</td>
+                  <td style="text-align: left;">3 stops</td>
+                  <td style="text-align: left;">20 people</td>
+                </tr>
+              </tbody>
+            </table>
+            
+            <!--DROPDOWN-->
+            <div style="background-color:rgba(19, 70, 97, 0.5); margin:5px;">
+            <div class="dropdown mt-50" >
+              <button class="btn btn-lg dropdown-toggle m-3" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                $997 Per Person
+                    </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" style="background-color:rgba(33, 131, 201, 0.251)" href="#">More Details</a></li>
+              </ul>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4 col-md-4 col-sm-12" data-aos="zoom-in-left" data-aos-offset="200">
+        <div class="card mt-2 mt-lg-5 mx-auto" style="width: 25rem; height :39rem;">
+          <div class="card-body" style="background-color:rgb(111, 144, 175);">
+            <h5 class="card-title mt-2 mb-2"  style="color:aliceblue; font-family:'Alike Angular', serif; font-size: 25px;text-decoration:underline;"><b>THE FOREST HIKER</b></h5>
+            <img src="images/forest.jpg" class="img-fluid img-thumbnail border border-info m-3 " style="height:200px; width:300px;">
+            <h6 class="card-subtitle mb-2  my-3">EASY TOUR</h6>
+            <p class="card-text text-white " style="text-align:justify; margin-left: 25px; margin-right: 25px; margin-bottom: 30px;">Breathtaking hike through the Canadian Banff National Park, awaits you.</p>
+
+            <table class="table m-300px;">
+              <tbody>
+                <tr>
+                  <th scope="row"></th>
+                  <td style="text-align: left;">5 Days</td>
+                  <td style="text-align: left;">Banff, Canada</td>
+                  <td style="text-align: left;">April 2021</td>
+                </tr>
+                <tr>
+                  <th scope="row"></th>
+                  <td style="text-align: left;">4.9 Rating</td>
+                  <td style="text-align: left;">3 stops</td>
+                  <td style="text-align: left;">25 people</td>
+                </tr>
+              </tbody>
+            </table>
+            
+            <!--DROPDOWN-->
+            <div style="background-color:rgba(19, 70, 97, 0.5); margin:5px;">
+            <div class="dropdown mt-50" >
+              <button class="btn btn-lg dropdown-toggle m-3" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                $297 Per Person
+                    </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" style="background-color:rgba(33, 131, 201, 0.251)" href="#">More Details</a></li>
+              </ul>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+</section>
+
+
+<!--Footer-->
+<footer>
+<nav class="navbar navbar-expand-lg navbar-expand-sm navbar-expand-md navbar-light px-3" style="background-color: rgba(5, 22, 76, 0.667); ">
+  <div class="container-fluid" >
+    <h5 class="d-inline-flex align-items-center pt-4 text-decoration-none"  aria-label="Bootstrap">
+      <img src="images/logo.jpg" height="30" alt="Logo"
+      loading="lazy" />
+      <span class="fs-5" style="font-family: 'Libre Baskerville', serif;">&nbsp Tour-Destinations</span>
+    </h5>
+    <div class=" justify-content-end mx-20 pt-4" id="navbarNavAltMarkup">
+      <div class="navbar-nav;">
+        <img src="images/github.jpg" class="image-fluid" height="22" alt="Logo"
+          loading="lazy" style="padding-right:1px;"/>
+        <a href="https://github.com/Dilli-Raj-Timalsina" style="font-size:17px; color:rgba(0, 0, 0, 0.509);"> GitHub</a>
+        <img src="images/twitter.jpg" class="image-fluid" height="18" alt="Logo"
+          loading="lazy" style="padding-right:1px; padding-left:5px;" /> 
+        <a href="https://twitter.com/dilliraj_354" style="font-size:17px;color:rgba(0, 0, 0, 0.509);">Twitter</a>
+        <img src="images/linkedin.jpg" class="image-fluid" height="18" alt="Logo"
+          loading="lazy" style="padding-right:1px; padding-left:5px;" />
+        <a href="https://www.linkedin.com/in/dilli-raj-timalsina-ba9278228/" style="font-size:17px;color:rgba(0, 0, 0, 0.509);">LinkedIn</a>
+        <img src="images/gmail.jpg" class="image-fluid" height="15" alt="Logo"
+          loading="lazy" style="padding-right:1px; padding-left:5px; "/>
+        <a href="dillirajtimalsina354@gmail.com" style="font-size:17px ;color:rgba(0, 0, 0, 0.509);">G-Mail</a>
+        
+        <p style="text-align:right; margin-top:18px; margin-bottom:5px;"><span style="font-size:18px;"><b>Dilli Raj Timalsina</b></span> &nbsp &nbsp  Contact-7975088770</p>
+      </div>
+    </div>
+  </div>
+</nav>
+</footer>
+
+
+
+
+
+</body>
+</html>

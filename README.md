@@ -83,7 +83,7 @@ If you wish to play around with the code base in your local environment, do the 
 
 ## Contributing :
 
-Contributions are always welcome!The app is actually quite more complex than is indicated in this documentation.
+Contributions are always welcome!The app is actually quite more complex so you can have brief overview by visiting official documentation of this API.
  Nevertheless, this summary is enough to help you understand the major features of the app. You are welcome to make improvements on the app. Please use the link specified at the beginning of the document to preview the app.
 
 
